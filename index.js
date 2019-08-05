@@ -63,6 +63,18 @@ bot.on('message', message => {
     let edit = message.content.replace(/nigger/gi, "[Pardon me, I am racist]");
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.includes('nigga')) {
+    let edit = message.content.replace(/nigga/gi, "[Pardon me, I am racist]");
+    message.delete();
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.includes('pussy')) {
+    let edit = message.content.replace(/nigger/gi, "[pimple]");
+    message.delete();
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.includes('vagina')) {
+    let edit = message.content.replace(/nigger/gi, "[pimple]");
+    message.delete();
+    message.channel.send(`${message.author.username}: ${edit}`);}
 })
 
 ,bot.on('message', message=>{
