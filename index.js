@@ -64,8 +64,8 @@ bot.on('guildMemberAdd', member =>{
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "fun time"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "fun time" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -73,8 +73,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "female organs"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "female organs" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -82,8 +82,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "manhood"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "manhood" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -91,8 +91,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "manhood"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "manhood" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -100,8 +100,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }      
-let censor = "doggone"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "doggone" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -109,8 +109,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "doggone"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "doggone" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -118,8 +118,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "friend"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "friend" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -127,8 +127,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "liquid"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "liquid" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -136,8 +136,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "I dont have any balls"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "I dont have any balls" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -145,8 +145,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "African American"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "African American" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -154,8 +154,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }      
-let censor = "prison wallet"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "prison wallet" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -163,8 +163,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "female parts"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "female parts" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -172,8 +172,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "friend"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "friend" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
@@ -181,8 +181,8 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-let censor = "bundle of firewood"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "bundle of firewood" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
