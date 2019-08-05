@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = process.env.token
+const token = (NjA3NzI3ODQyNjAzNTY1MDY4.XUhZyQ.NvJCh3olBSrHgtshdmICT7AA3zs)
 
 const PREFIX = '!';
 
@@ -14,8 +14,8 @@ bot.on('message', msg=>{
     (msg.content);{
          const generalChannel = msg.guild.channels.find(channel => channel.name === "logs")
     generalChannel.send(msg.content)
-   
-    }
+   }
+
 })
 
 bot.on("messageUpdate", async(oldMessage, newMessage) => {
@@ -190,7 +190,7 @@ bot.on('guildMemberAdd', member =>{
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 }
-bot.on('message', message=>{
+,bot.on('message', message=>{
   
     let args = message.content.substring(PREFIX.length).split(" ");
 
@@ -243,6 +243,5 @@ bot.on('message', message=>{
                 
                 
     } 
-})
-
-bot.login(token);
+}
+,bot.login(token)))))))))))))))));
