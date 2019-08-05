@@ -56,12 +56,20 @@ bot.on('guildMemberAdd', member =>{
     channel.send(`Howdy ${member}, welcome to Dubz's Server!`);
 })
 
-let censor = "Sorry, I'm racist."; /* Replace this with what you want */
+let censor = "CENSORED"; /* Replace this with what you want */
 bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
     let edit = message.content.replace(/nigger/gi, censor);
+    message.delete();
+    message.channel.send(`${message.author.username}: ${edit}`);
+})
+bot.on('message', message => {
+    if (message.author == bot.user) {
+        return
+    }
+    let edit = message.content.replace(/pussy/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 })
