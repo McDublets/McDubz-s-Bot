@@ -59,20 +59,20 @@ bot.on('guildMemberAdd', member =>{
 bot.on('message', message => {
     if (message.author == bot.user) {
         return}
-    if (message.content.includes('nigger')) {
+    if (message.content.toUpperCase() === ('nigger').toUpperCase()) {
     let edit = message.content.replace(/nigger/gi, "[Pardon me, I am racist]");
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);}
-    if (message.content.includes('nigga')) {
+    if (message.content.toUpperCase() === ('nigga').toUpperCase())
     let edit = message.content.replace(/nigga/gi, "[Pardon me, I am racist]");
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);}
-    if (message.content.includes('pussy')) {
-    let edit = message.content.replace(/nigger/gi, "[pimple]");
+    if (message.content.toUpperCase() === ('pussy').toUpperCase())
+    let edit = message.content.replace(/pussy/gi, "[pimple]");
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);}
-    if (message.content.includes('vagina')) {
-    let edit = message.content.replace(/nigger/gi, "[pimple]");
+    if (message.content.toUpperCase() === ('vagina').toUpperCase())
+    let edit = message.content.replace(/vagina/gi, "[pimple]");
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);}
 })
