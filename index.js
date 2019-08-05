@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-const token = (NjA3NzI3ODQyNjAzNTY1MDY4.XUhZyQ.NvJCh3olBSrHgtshdmICT7AA3zs)
+const token = process.env.token;
 
 const PREFIX = '!';
 
@@ -63,7 +63,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/nigger/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "fun time" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -72,7 +72,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/sex/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "female organs" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -81,7 +81,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/pussy/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "manhood" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -90,7 +90,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/dick/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "manhood" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -99,7 +99,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/penis/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}      
+})     
 ,let ,censor = "doggone" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -108,7 +108,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/goddamn/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "doggone" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -117,7 +117,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/god damn/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "friend" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -126,7 +126,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/slut/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "liquid" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -135,7 +135,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/nigger/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "I dont have any balls" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -144,7 +144,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/lmb/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "African American" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -153,7 +153,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/nigga/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}      
+})     
 ,let ,censor = "prison wallet" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -162,7 +162,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/anal/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "female parts" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -171,7 +171,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/vagina/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "friend" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -180,7 +180,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/whore/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,let ,censor = "bundle of firewood" /* Replace this with what you want */
 ,bot.on('message', message => {
     if (message.author == bot.user) {
@@ -189,7 +189,7 @@ bot.on('guildMemberAdd', member =>{
     let edit = message.content.replace(/faggot/gi, censor);
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
-}
+})
 ,bot.on('message', message=>{
   
     let args = message.content.substring(PREFIX.length).split(" ");
@@ -242,6 +242,6 @@ bot.on('guildMemberAdd', member =>{
             break;
                 
                 
-    } 
-}
-,bot.login(token)))))))))))))))));
+    }
+})
+,bot.login(token);
