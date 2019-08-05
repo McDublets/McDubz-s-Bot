@@ -65,6 +65,7 @@ bot.on('message', message => {
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);
 })
+let censor = "CENSORED"; /* Replace this with what you want */
 bot.on('message', message => {
     if (message.author == bot.user) {
         return
