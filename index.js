@@ -56,6 +56,14 @@ bot.on('guildMemberAdd', member =>{
     channel.send(`Howdy ${member}, welcome to Dubz's Server!`);
 })
 
+bot.on('message', message => {
+    if (msg.author == bot.user) {
+        return
+} 
+    if(msg.content.includes(message.content.toLowerCase().includes('test'))){
+      message.delete()
+}})
+
 bot.on('message', msg=>{
     if(msg.content.includes('pussy')) 
     msg.delete();
