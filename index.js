@@ -63,58 +63,58 @@ bot.on('message', message => {
     let edit = message.content.replace(/nigger/gi, "[Pardon me, I am racist]");
     message.delete();
     message.channel.send(`${message.author.username}: ${edit}`);}
-    if (message.content.toUpperCase() === ('nigga').toUpperCase())
+    if (message.content.toUpperCase() === ('nigga').toUpperCase()){
     let edit = message.content.replace(/nigga/gi, "[Pardon me, I am racist]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('pussy').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('pussy').toUpperCase()){
     let edit = message.content.replace(/pussy/gi, "[pimple]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('vagina').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('vagina').toUpperCase()){
     let edit = message.content.replace(/vagina/gi, "[pimple]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('boob').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('boob').toUpperCase()){
     let edit = message.content.replace(/boop/gi, "[2 pipe set]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('tits').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('tits').toUpperCase()){
     let edit = message.content.replace(/tits/gi, "[2 pipe set]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('dick').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('dick').toUpperCase()){
     let edit = message.content.replace(/dick/gi, "[manhood]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('penis').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('penis').toUpperCase()){
     let edit = message.content.replace(/penis/gi, "[manhood]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('anal').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('anal').toUpperCase()){
     let edit = message.content.replace(/anal/gi, "[prison wallet]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('motherfuck').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('motherfuck').toUpperCase()){
     let edit = message.content.replace(/motherfuck/gi, "[oops]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('queer').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('queer').toUpperCase()){
     let edit = message.content.replace(/queer/gi, "[unstable]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('slut').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('slut').toUpperCase()){
     let edit = message.content.replace(/slut/gi, "[friend]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('whore').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('whore').toUpperCase()){
     let edit = message.content.replace(/whore/gi, "[friend]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
-    if (message.content.toUpperCase() === ('gay').toUpperCase())
+    message.channel.send(`${message.author.username}: ${edit}`);}
+    if (message.content.toUpperCase() === ('gay').toUpperCase()){
     let edit = message.content.replace(/gay/gi, "[insecure]");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
+    message.channel.send(`${message.author.username}: ${edit}`);}
 
 
 bot.on('message', message=>{
