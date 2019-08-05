@@ -58,14 +58,11 @@ bot.on('guildMemberAdd', member =>{
 
 bot.on('message', message => {
     if (message.author == bot.user) {
-        return
-    }
+        return}
+    if (message.content.includes('nigger')) {
     let edit = message.content.replace(/nigger/gi, "[Pardon me, I am racist]");
-    message.content.replace(/nigga/gi, "[Pardon me, I am racist]");
-    message.content.replace(/pussy/gi, "female parts");
-    message.content.replace(/vagina/gi, "female parts");
     message.delete();
-    message.channel.send(`${message.author.username}: ${edit}`);
+    message.channel.send(`${message.author.username}: ${edit}`);}
 })
 
 ,bot.on('message', message=>{
