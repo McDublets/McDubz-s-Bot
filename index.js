@@ -13,7 +13,7 @@ bot.on('message', msg=>{
     } 
     (msg.content);{
          const generalChannel = msg.guild.channels.find(channel => channel.name === "logs")
-    generalChannel.send(`${message.author.username}: ${message.content}`)
+    generalChannel.send(message.content)
    }
 
 })
