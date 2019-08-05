@@ -55,8 +55,8 @@ bot.on('guildMemberAdd', member =>{
 
     channel.send(`Howdy ${member}, welcome to Dubz's Server!`);
 })
-let censor = "African American"; /* Replace this with what you want */
-bot.on('message', message => {
+,let ,censor = "African American" /* Replace this with what you want */
+,bot.on('message', message => {
     if (message.author == bot.user) {
         return
     }
