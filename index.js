@@ -11,17 +11,12 @@ bot.on('message', msg=>{
     if (msg.author == bot.user) {
         return
     } 
-    var logchannel = bot.channels.get("607788738701033473")
-    let logembed = new Discord.RichEmbed()
-    .setAuthor(msg.author.tag)
-    .setColor("RED")
-    .setDescription("Message Sent")
-    .addField(message)
-    .setTimestamp()
-    logchannel.sendMessage(logembed)
+    (msg.content);{
+         const generalChannel = msg.guild.channels.find(channel => channel.name === "logs")
+    generalChannel.send(`${msg.author.username}: ${msg.content}`)
+   
     }
-,)
-bot.on("messageUpdate", async(oldMessage, newMessage) => {
+})bot.on("messageUpdate", async(oldMessage, newMessage) => {
     if(oldMessage.content === newMessage.content){
         return;
     }
