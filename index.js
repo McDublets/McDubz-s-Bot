@@ -16,7 +16,8 @@ bot.on('message', msg=>{
     generalChannel.send(`${msg.author.username}: ${msg.content}`)
    
     }
-})bot.on("messageUpdate", async(oldMessage, newMessage) => {
+});
+bot.on("messageUpdate", async(oldMessage, newMessage) => {
     if(oldMessage.content === newMessage.content){
         return;
     }
